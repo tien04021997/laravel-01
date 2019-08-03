@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944c1197-0137-400f-968c-1e34c335bb57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/layout/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/app/Exceptions/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lar.tuto/authen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/lar.tuto/authen/routes/web.php" afterDir="false" />
@@ -19,59 +26,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Admin/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Seller/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#52#102#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="64" column="53" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="64" selection-end-column="53" />
-              <folding>
-                <element signature="e#41#66#0#PHP" expanded="true" />
-                <marker date="1564573568042" expanded="true" signature="834:986" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/SellerController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-              <folding>
-                <element signature="e#40#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lar.tuto/authen/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="141" column="65" selection-start-line="141" selection-start-column="54" selection-end-line="141" selection-end-column="65" />
+            <state relative-caret-position="3281">
+              <caret line="202" column="79" selection-start-line="202" selection-start-column="79" selection-end-line="202" selection-end-column="79" />
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
@@ -80,22 +55,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Model/SellerModel.php">
+        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Shipper/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="850">
+              <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
+              <folding>
+                <element signature="e#53#103#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Model/AdminModel.php">
+        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/dashboard.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="40" />
-              <folding>
-                <element signature="e#28#68#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -105,6 +116,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>login</find>
+      <find>admin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,25 +129,37 @@
         <option value="$PROJECT_DIR$/lar.tuto/authen/database/migrations/2019_07_05_142333_create_admins.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/User.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/Model/AdminModel.php" />
-        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/database/migrations/2019_07_31_120130_create_sellers.php" />
-        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Model/SellerModel.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Admin/LoginController.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/layout/app.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/database/migrations/2019_08_01_154305_shippers.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/config/auth.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Model/SellerModel.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Model/ShipperModel.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/routes/web.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/SellerController.php" />
-        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Admin/LoginController.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/ShipperController.php" />
         <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Seller/LoginController.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Shipper/LoginController.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="455" />
     <option name="height" value="728" />
   </component>
@@ -213,7 +237,7 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Auth" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Seller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-01" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +248,7 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Auth" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
+              <item name="Shipper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-01" type="b2602c69:ProjectViewProjectNode" />
@@ -270,29 +294,15 @@
               <item name="laravel-01" type="462c0819:PsiDirectoryNode" />
               <item name="lar.tuto" type="462c0819:PsiDirectoryNode" />
               <item name="authen" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-01" type="462c0819:PsiDirectoryNode" />
               <item name="lar.tuto" type="462c0819:PsiDirectoryNode" />
               <item name="authen" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-01" type="462c0819:PsiDirectoryNode" />
-              <item name="lar.tuto" type="462c0819:PsiDirectoryNode" />
-              <item name="authen" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-01" type="462c0819:PsiDirectoryNode" />
-              <item name="lar.tuto" type="462c0819:PsiDirectoryNode" />
-              <item name="authen" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,6 +316,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,17 +354,21 @@
       <workItem from="1564150654301" duration="9425000" />
       <workItem from="1564410366068" duration="606000" />
       <workItem from="1564503910305" duration="6000" />
-      <workItem from="1564572009329" duration="6502000" />
+      <workItem from="1564572009329" duration="7270000" />
+      <workItem from="1564587930596" duration="2341000" />
+      <workItem from="1564674042269" duration="870000" />
+      <workItem from="1564753271081" duration="6558000" />
+      <workItem from="1564847032104" duration="676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37526000" />
+    <option name="totallyTimeSpent" value="48739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -366,7 +381,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1391162" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3666121" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -430,24 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="40" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="70" column="60" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -465,48 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="53" column="71" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="71" />
-          <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="88" selection-start-line="59" selection-start-column="88" selection-end-line="59" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/database/migrations/2019_07_31_120130_create_sellers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -527,17 +480,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Admin/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="e#51#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="71" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/database/migrations/2019_07_31_120130_create_sellers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="11" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/layout/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/seller/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Model/SellerModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="187">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#28#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/database/migrations/2019_08_01_154305_shippers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        <state relative-caret-position="365">
+          <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
           <folding>
             <element signature="e#34#48#0#PHP" expanded="true" />
           </folding>
@@ -546,32 +621,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+        <state relative-caret-position="341">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/SellerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#40#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/ShipperController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Model/ShipperModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#29#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="64" column="53" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="64" selection-end-column="53" />
+        <state relative-caret-position="569">
+          <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding>
             <element signature="e#41#66#0#PHP" expanded="true" />
             <marker date="1564573568042" expanded="true" signature="834:986" ph="..." />
@@ -579,37 +667,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/admin/auth/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Seller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+        <state relative-caret-position="425">
+          <caret line="55" column="60" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="55" selection-end-column="60" />
+          <folding>
+            <element signature="e#52#102#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lar.tuto/authen/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="141" column="65" selection-start-line="141" selection-start-column="54" selection-end-line="141" selection-end-column="65" />
+        <state relative-caret-position="3281">
+          <caret line="202" column="79" selection-start-line="202" selection-start-column="79" selection-end-line="202" selection-end-column="79" />
           <folding>
             <element signature="e#7#389#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Admin/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Shipper/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="850">
+          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
+          <folding>
+            <element signature="e#53#103#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/app/Http/Controllers/Auth/Seller/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#52#102#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/shipper/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lar.tuto/authen/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
         </state>
       </provider>
     </entry>

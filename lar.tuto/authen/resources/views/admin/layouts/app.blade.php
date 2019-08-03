@@ -14,14 +14,14 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
@@ -43,7 +43,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('admin.auth.login') }}">{{ __('Admin Login') }}</a>
                         </li>
-                        @if (Route::has('register'))
+                        @if (Route::has('admin.register'))
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('admin.register') }}">{{ __('Admin Register') }}</a>
                             </li>
@@ -55,13 +55,13 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ route('admin.auth.login') }}"
+                                <a class="dropdown-item" href="{{ route('admin.auth.logout') }}"
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Admin Logout') }}
                                 </a>
 
-                                <form id="logout-form" action="{{ route('admin.auth.login') }}" method="POST" style="display: none;">
+                                <form id="logout-form" action="{{ route('admin.auth.logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
                             </div>
