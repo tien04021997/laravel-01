@@ -30,6 +30,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::prefix('admin')->group(function (){
+
+    /*
+     * ----------------- Route admin authentication --------------------
+     * ---------------------------------------------------------
+     * ---------------------------------------------------------
+     */
+
     // Gom nhóm các route cho phần admin
 
     /*
@@ -86,6 +93,68 @@ Route::prefix('admin')->group(function (){
      * */
 
     Route::post('logout', 'Auth\Admin\LoginController@logout')->name('admin.auth.logout');
+
+    /*
+     * ----------------- Route admin shopping --------------------
+     * ---------------------------------------------------------
+     * ---------------------------------------------------------
+     */
+
+    Route::get('shop/category', function (){
+        return view('admin.content.shop.category.index');
+    });
+
+    Route::get('shop/product', function (){
+        return view('admin.content.shop.product.index');
+    });
+
+    Route::get('shop/order', function (){
+        return view('admin.content.shop.order.index');
+    });
+
+    Route::get('shop/review', function (){
+        return view('admin.content.shop.review.index');
+    });
+
+    Route::get('shop/customer', function (){
+        return view('admin.content.shop.customer.index');
+    });
+
+    Route::get('shop/brand', function (){
+        return view('admin.content.shop.brand.index');
+    });
+
+    Route::get('shop/statistic', function (){
+        return view('admin.content.shop.statistic.index');
+    });
+
+    Route::get('shop/product/order', function (){
+        return view('admin.content.shop.adminorder.index');
+    });
+
+    /*
+     * ----------------- Route admin nội dung --------------------
+     * ---------------------------------------------------------
+     * ---------------------------------------------------------
+     */
+
+    Route::get('content/category', function (){
+        return view('admin.content.content.category.index');
+    });
+
+    Route::get('content/post', function (){
+        return view('admin.content.content.post.index');
+    });
+
+    Route::get('content/page', function (){
+        return view('admin.content.content.page.index');
+    });
+
+    Route::get('content/tag', function (){
+        return view('admin.content.content.tag.index');
+    });
+
+
 });
 
 /*

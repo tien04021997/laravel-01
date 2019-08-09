@@ -1,4 +1,12 @@
+<!-- for amcharts js -->
+<script src="{{asset('admin_asset/js/amcharts.js')}}"></script>
+<script src="{{asset('admin_asset/js/serial.js')}}"></script>
+<script src="{{asset('admin_asset/js/export.min.js')}}"></script>
+<link rel="stylesheet" href="{{asset('admin_asset/css/export.css')}}" type="text/css" media="all" />
+<script src="{{asset('admin_asset/js/light.js')}}"></script>
+<!-- for amcharts js -->
 
+<script  src="{{asset('admin_asset/js/index1.js')}}"></script>
 <!-- new added graphs chart js-->
 
 <script src="{{asset('admin_asset/js/Chart.bundle.js')}}"></script>
